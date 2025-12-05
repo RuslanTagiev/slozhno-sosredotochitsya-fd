@@ -259,7 +259,6 @@ a:focus-visible {
   box-sizing: border-box;
   background-color: var(--background__color);
   position: relative;
-  box-sizing: border-box;
   max-inline-size: 1440px;
 }
 
@@ -267,7 +266,6 @@ a:focus-visible {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  box-sizing: border-box;
 }
 
 @media (width >= 768px) {
@@ -325,7 +323,6 @@ a:focus-visible {
   .header__text {
     grid-row: 3;
     grid-column: 2;
-    margin: 0;
     margin: 40px 20px 0 0;
   }
 
@@ -363,10 +360,6 @@ a:focus-visible {
 
   .title-decor {
     margin-top: 0;
-  }
-
-  .text__card {
-    grid-column: 2;
   }
 
   .how {
