@@ -165,10 +165,6 @@
   padding-block-end: 40px;
 }
 
-.description:not(:last-child) {
-  gap: 49px;
-}
-
 .text__block_title {
   margin: 0;
   font-family: "IBM Plex Mono", sans-serif;
@@ -223,6 +219,14 @@
   box-sizing: border-box;
 }
 
+.container__block_what {
+  padding-block-start: 50px;
+}
+
+.container__block_how {
+  padding-block-start: 50px;
+}
+
 .card__block {
   display: grid;
   gap: 20px;
@@ -236,7 +240,7 @@
 }
 
 .container__block_img {
-  padding-block-start: 2px;
+  padding-block-start: 49px;
   gap: 10px;
 }
 
@@ -339,16 +343,24 @@ a:focus-visible {
     width: 100vw;
   }
 
-  .description:not(:last-child) {
-    gap: 80px;
-  }
-
   .container__block {
     width: calc(100% - 40px);
   }
 
+  .container__block_what {
+    padding-block-start: 79px;
+  }
+
   .container__block_why {
     grid-template-columns: 1fr 2fr;
+  }
+
+  .container__block_how {
+    padding-block-start: 80px;
+  }
+
+  .container__block_img {
+    padding-block-start: 79px;
   }
 
   .card__block {
