@@ -21,12 +21,12 @@
   :root {
     --background__image: url("../images/cover-image-light.png");
     --background__color: #fff1f7;
-    --accent-color: #ff8dcb;
+    --accent__color: #ff8dcb;
     --title__color: #ffc2e6;
     --text__color: #353430;
     --text__title_color: #353430;
     --button-text_color: #353430;
-    --button__hover__opacity: 1px solid rgba(50, 49, 45, 0.4);
+    --button__hover_opacity: 1px solid rgba(50, 49, 45, 0.4);
     --corner__color: #353430;
     --subtitle__text_color: #353430;
   }
