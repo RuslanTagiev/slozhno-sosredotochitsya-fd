@@ -357,10 +357,13 @@ a:focus-visible {
 
   .container__block_how {
     padding-block-start: 80px;
+    grid-template-columns: 1fr 2fr;
+    padding-block-end: 2px;
   }
 
   .container__block_img {
     padding-block-start: 79px;
+    gap: 20px;
   }
 
   .card__block {
@@ -371,15 +374,6 @@ a:focus-visible {
   .title__what {
     width: 30%;
     text-align: start;
-  }
-
-  .container__block_how {
-    grid-template-columns: 1fr 2fr;
-    padding-block-end: 2px;
-  }
-
-  .container__block_img {
-    gap: 20px;
   }
 
   .card__block_img {
