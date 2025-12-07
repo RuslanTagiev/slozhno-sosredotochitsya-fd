@@ -7,9 +7,16 @@
 :root.theme-dark {
   --background__image: url("../images/cover-image-dark.png");
   --background__color: #000028;
-  --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --text-color: #f1b2ce;
-  --text__title-color: #ff0070;
-  --button__hover-opacity: 1px solid rgba(255, 0, 112, 0.4);
+  --accent__color: #ff0070;
+  --title__color: #db00ff;
+  --text__color: #f1b2ce;
+  --text__title_color: #ff0070;
+  --button__text_color: #ff0070;
+  --button__hover_opacity: 1px solid rgba(255, 0, 112, 0.4);
+  --corner__color: #FF0070;
+  --subtitle__text_color: #000028;
+}
+
+:root.theme-dark .theme__light-hidden {
+  display: initial;
 }
